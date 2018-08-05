@@ -1,8 +1,11 @@
 package com.example.xyzreader.data;
 
 import android.content.Context;
-import android.content.CursorLoader;
+import android.support.v4.content.CursorLoader;
 import android.net.Uri;
+
+import android.support.v4.content.Loader;
+
 
 /**
  * Helper for loading a list of articles or a single article.
