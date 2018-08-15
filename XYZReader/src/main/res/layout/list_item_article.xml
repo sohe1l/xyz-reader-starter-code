@@ -7,11 +7,12 @@
 
      <com.example.xyzreader.ui.DynamicHeightNetworkImageView
          android:id="@+id/thumbnail"
-         android:layout_width="100dp"
-         android:layout_height="100dp"
+         android:layout_width="@dimen/item_image_size"
+         android:layout_height="@dimen/item_image_size"
          android:background="@color/photo_placeholder"
          app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="parent" />
+         app:layout_constraintTop_toTopOf="parent"
+         android:scaleType="centerCrop"/>
 
      <TextView
          android:id="@+id/article_title"
